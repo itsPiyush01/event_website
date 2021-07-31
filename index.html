@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Metas -->
+	<meta charset="utf-8">
+	<title>CODEX WE CODE. WE EXPLORE.</title>
+	<meta name="description" content="Quantum Speed Hackathon, 48 Hour National Level Hackathon in August">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/venobox.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<link rel="icon" href="img/codexLogo.png">
+	
+	<!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+// !function() {
+//   var t = window.driftt = window.drift = window.driftt || [];
+//   if (!t.init) {
+//     if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+//     t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+//     t.factory = function(e) {
+//       return function() {
+//         var n = Array.prototype.slice.call(arguments);
+//         return n.unshift(e), t.push(n), t;
+//       };
+//     }, t.methods.forEach(function(e) {
+//       t[e] = t.factory(e);
+//     }), t.load = function(t) {
+//       var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+//       o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+//       var i = document.getElementsByTagName("script")[0];
+//       i.parentNode.insertBefore(o, i);
+//     };
+//   }
+// }();
+// drift.SNIPPET_VERSION = '0.3.1';
+// drift.load('x46p8fn3tyum');
+// </script>
+<!-- End of Async Drift Code -->
+</head>
+
+<body>
+	<!-- Preloader -->
+	<!-- <div class="loader"> Preloader inner -->
+		<div class="loader-inner">
+			<svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<circle class="spinner" cx="50" cy="50" r="21" fill="#111111" stroke-width="1.5" />
+			</svg>
+		</div>
+		<!-- End preloader inner -->
+	</div> 
+	<!-- End preloader-->
+	<!--Wrapper-->
+	<div class="wrapper">
+		<!--Hero section-->
+		<section class="hero overlay">
+			<!--Main slider-->
+			<div class="main-slider slider">
+				<ul class="slides">
+					<li>
+						<div class="background-img parallax">
+							<img src="img/back1.png" alt="">
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--End main slider-->
+			<!--Header-->
+			<header class="header">
+				<!--Container-->
+				<div class="container" >
+					<!--Row-->
+					<div class="row">
+						<div class="col-md-2">
+							<a class="scroll logo" href="#wrapper">
+								<!-- <img class="logo-default" src="img/logo/sts_logo.png" height="120" width="35" alt="logo" /> -->
+								<img class="logo-default" src="img/codexLogo.png" height="120" width="35" alt="logo" />
+							</a>
+						</div>
+						<div class="col-md-10 text-right">
+							<nav class="main-nav">
+								<div class="toggle-mobile-but">
+									<a href="#" class="mobile-but">
+										<div class="lines"></div>
+									</a>
+								</div>
+								<ul>
+									<li><a class="scroll" href="#wrapper">Home</a></li>
+									<!--<li><a class="scroll" href="#about">About</a></li>-->
+									<!-- <li><a class="scroll" href="https://quantumspeed2021.steptostem.com/steptostem-quantumhackathon2021-terms-and-conditions.pdf">Rules</a></li> -->
+									<li><a class="scroll" href="#rules">Rules</a></li>
+									<li><a class="scroll" href="#prizes">Prizes</a></li>
+									<li><a class="scroll" href="#sponsors">Sponsors</a></li>
+									<li><a class="scroll" href="#footer">Contact us</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+			</header>
+			<!--End header-->
+			<!--Inner hero-->
+			<div class="inner-hero fade-out">
+				<!--Container-->
+				<div class="container hero-content">
+					<!--Row-->
+					<div class="row">
+						<img class="logo-default" src="img/codex logo color transparent final.png" height=450px width=450px alt="logo" >
+						<h4>MORE THAN A HACKATHON</h4>
+						<p class="gradient-text"><strong> Register at your School </strong></p>
+						<a class="but scroll " href="/google.com"> Register at your School </a>
+
+					</div>
+				</div>
+				<!--End row-->
+			</div>
+			<!--End container-->
+
+			<!--End inner hero-->
+		</section>
+		<!--End hero section-->
+		
+		
+		<h1 class="clock">
+		<p id="clock"></p>
+			<script>
+			// Set the date we're counting down to
+			var countDownDate = new Date("Aug 20, 2021 09:30:00").getTime();
+
+			// Update the count down every 1 second
+			var x = setInterval(function() {
+
+			// Get today's date and time
+			var now = new Date().getTime();
+
+			// Find the distance between now and the count down date
+			var distance = countDownDate - now;
+
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			// Display the result in the element with id="clock"
+			document.getElementById("clock").innerHTML = "STARTS IN "+days + "d " + hours + "h "
+			+ minutes + "m " + seconds + "s";
+
+			// If the count down is finished, write some text
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("clock").innerHTML = "EXPIRED";
+			}
+			}, 1000);
+			</script>
+
+		</h1>
+		
+		<script>
+			AOS.init();
+		  </script>
+	
+		<!--About section-->
+		<section id="about" class="about pt-120 pb-120 brd-bottom" >
+			<!--Container-->
+			
+			<div class="container" data-aos="fade-up" data-aos-duration="500" >
+				<!--Row-->
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+						<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.1983" y1="28.1187" x2="43.4067" y2="11.702">
+							<stop offset="0" style="stop-color:#399BFF" />
+							<stop offset="1" style="stop-color:#EE71F9" />
+							<h1 class="title">Calling all developers and students!</h1>
+						</linearGradient>
+						<p class="title-lead mt-20"> 
+							We’d like to invite you to participate in the “Quantum Speed Hackathon 2021” powered by Steptostem.com in collaboration with Little Flower School, Telco.<br>
+							This hackathon will be focused on building tech-based projects aligned under several themes and technology stacks.
+						</p>
+						<p class="title-lead mt-20">All activities are enforced with our<br>
+							<!-- <h5 class="gradient-text"><a class="title-lead mt-20" href="https://quantumspeed2021.steptostem.com/code_of_conduct.pdf">Code of Conduct</a></h5> -->
+						</p>
+					</div>
+				</div>
+				<!--End row-->
+			</div>
+
+			<!--End container-->
+			<!--Container-->
+			<div class="container aboutdate" data-aos="fade-up" data-aos-duration="500">
+				<!--Row-->
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="block-info-1">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32"
+							 xml:space="preserve">
+								<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.1983" y1="28.1187" x2="43.4067" y2="11.702">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_1_)" d="M38,30.5v-19c0-0.276-0.224-0.5-0.5-0.5S37,11.224,37,11.5v19c0,0.276-0.224,0.5-0.5,0.5h-31
+                              C5.224,31,5,30.776,5,30.5v-19C5,11.224,4.776,11,4.5,11S4,11.224,4,11.5v19C4,31.327,4.673,32,5.5,32h31
+                              C37.327,32,38,31.327,38,30.5z" />
+								<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="4.7162" y1="26.9965" x2="42.9245" y2="10.5799">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_2_)" d="M8.5,23C8.224,23,8,23.224,8,23.5S8.224,24,8.5,24H10v3.5c0,0.276,0.224,0.5,0.5,0.5
+                              s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24
+                              h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24h1.5c0.276,0,0.5-0.224,0.5-0.5S33.776,23,33.5,23H32v-5h1.5
+                              c0.276,0,0.5-0.224,0.5-0.5S33.776,17,33.5,17H32v-4.5c0-0.276-0.224-0.5-0.5-0.5S31,12.224,31,12.5V17h-6v-4.5
+                              c0-0.276-0.224-0.5-0.5-0.5S24,12.224,24,12.5V17h-6v-4.5c0-0.276-0.224-0.5-0.5-0.5S17,12.224,17,12.5V17h-6v-4.5
+                              c0-0.276-0.224-0.5-0.5-0.5S10,12.224,10,12.5V17H8.5C8.224,17,8,17.224,8,17.5S8.224,18,8.5,18H10v5H8.5z M31,18v5h-6v-5H31z
+                              M24,18v5h-6v-5H24z M11,18h6v5h-6V18z" />
+								<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-0.4811" y1="14.9003" x2="37.7272" y2="-1.5164">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_3_)" d="M32.5,3h4.25C36.837,3,37,3,37,3.5V8H5V3.5C5,3.224,5.224,3,5.5,3h4C9.776,3,10,2.776,10,2.5
+                              S9.776,2,9.5,2h-4C4.673,2,4,2.673,4,3.5v5C4,8.776,4.224,9,4.5,9h33C37.776,9,38,8.776,38,8.5v-5C38,2.394,37.354,2,36.75,2H32.5
+                              C32.224,2,32,2.224,32,2.5S32.224,3,32.5,3z" />
+								<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-1.6311" y1="12.2237" x2="36.5772" y2="-4.1929">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_4_)" d="M26.5,3C26.776,3,27,2.776,27,2.5S26.776,2,26.5,2h-11C15.224,2,15,2.224,15,2.5S15.224,3,15.5,3
+                              H26.5z" />
+								<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-2.9557" y1="9.1407" x2="35.2526" y2="-7.2759">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_5_)" d="M13,4.5v-4C13,0.224,12.776,0,12.5,0S12,0.224,12,0.5v4C12,4.776,12.224,5,12.5,5S13,4.776,13,4.5z" />
+								<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-0.3065" y1="15.3067" x2="37.9019" y2="-1.11">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F7" />
+								</linearGradient>
+								<path fill="url(#SVGID_6_)" d="M29.5,5C29.776,5,30,4.776,30,4.5v-4C30,0.224,29.776,0,29.5,0S29,0.224,29,0.5v4
+                              C29,4.776,29.224,5,29.5,5z" />
+							</svg>
+							<p>
+								<strong>DATE</strong>
+								<span>20-21 August </span>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="block-info-1">
+							<svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32"
+							 xml:space="preserve">
+								<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="4.511" y1="11.8158" x2="41.3229" y2="27.6695">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_7_)" d="M10.239,31.926c0.009,0.006,0.021,0.003,0.03,0.009C10.341,31.973,10.418,32,10.499,32
+                              c0.044,0,0.088-0.006,0.132-0.018l10.868-2.966l10.868,2.966C32.411,31.994,32.455,32,32.499,32c0.082,0,0.158-0.027,0.23-0.065
+                              c0.01-0.005,0.021-0.003,0.03-0.009l9-5.5c0.191-0.117,0.281-0.348,0.22-0.563l-4.984-17.5c-0.041-0.147-0.148-0.267-0.29-0.326
+                              c-0.142-0.057-0.301-0.048-0.436,0.026l-4.962,2.784c-0.24,0.135-0.326,0.44-0.191,0.681c0.135,0.242,0.439,0.327,0.682,0.191
+                              l4.409-2.475l4.707,16.526l-8.015,4.898l-1.904-15.231c-0.034-0.275-0.293-0.466-0.559-0.434c-0.273,0.034-0.468,0.284-0.434,0.558
+                              l1.907,15.259L22,28.115v-2.73c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v2.73l-9.911,2.705l1.907-15.259
+                              c0.034-0.274-0.16-0.524-0.434-0.558c-0.272-0.032-0.524,0.159-0.559,0.434l-1.904,15.231L2.084,25.77L6.791,9.244l4.409,2.475
+                              c0.242,0.134,0.546,0.049,0.682-0.191c0.135-0.241,0.049-0.545-0.191-0.681L6.729,8.063C6.595,7.988,6.436,7.979,6.293,8.037
+                              c-0.142,0.059-0.249,0.178-0.29,0.326l-4.984,17.5c-0.062,0.216,0.028,0.446,0.22,0.563L10.239,31.926z" />
+								<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="12.6241" y1="7.5582" x2="28.5468" y2="14.4156">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_8_)" d="M21.161,23.367c0.096,0.088,0.217,0.132,0.339,0.132c0.12,0,0.24-0.043,0.336-0.129
+                              C22.169,23.067,30,15.882,30,8.499c0-4.767-3.733-8.5-8.5-8.5S13,3.732,13,8.499C13,15.753,20.828,23.059,21.161,23.367z
+                              M21.5,0.999c4.275,0,7.5,3.224,7.5,7.5c0,6.097-5.993,12.337-7.497,13.807C20.002,20.819,14,14.497,14,8.499
+                              C14,4.223,17.225,0.999,21.5,0.999z" />
+								<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="17.3671" y1="6.7191" x2="25.6329" y2="10.2789">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_9_)" d="M26,8.499c0-2.481-2.019-4.5-4.5-4.5S17,6.018,17,8.499s2.019,4.5,4.5,4.5S26,10.98,26,8.499z
+                              M21.5,11.999c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S23.43,11.999,21.5,11.999z" />
+							</svg>
+							<p>
+								<strong>VENUE</strong>
+								<span>Online</span>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="block-info-1">
+							<svg version="1.1" id="Layer_10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32"
+							 xml:space="preserve">
+								<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="1.9027" y1="28.6566" x2="55.9027" y2="10.9483">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_10_)" d="M40.498,0c-0.276,0-0.5,0.224-0.5,0.5v31c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-31
+                              C40.998,0.224,40.774,0,40.498,0z" />
+								<linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="1.1102" y1="26.2399" x2="55.1102" y2="8.5316">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_10_)" d="M38.717,1.204c-0.17-0.083-0.376-0.062-0.526,0.055l-0.565,0.445C34.648,4.059,29.667,8,19.5,8H5.631
+                              C4.18,8,3,9.2,3,10.674v10.714C3,22.828,4.18,24,5.631,24h3.394c0.088,1.125,0.502,3.794,2.454,5.761
+                              C12.953,31.247,14.979,32,17.5,32c0.276,0,0.5-0.224,0.5-0.5S17.776,31,17.5,31c-2.242,0-4.026-0.652-5.306-1.938
+                              c-1.668-1.677-2.067-4.025-2.163-5.062h2.995c0.085,0.682,0.36,1.881,1.274,2.802C15.089,27.597,16.166,28,17.5,28
+                              c0.276,0,0.5-0.224,0.5-0.5S17.776,27,17.5,27c-1.055,0-1.891-0.302-2.484-0.896c-0.657-0.659-0.894-1.546-0.981-2.104h5.396
+                              c10.216,0,15.237,3.963,18.237,6.331l0.522,0.411c0.089,0.07,0.198,0.105,0.307,0.105c0.075,0,0.15-0.017,0.219-0.051
+                              c0.172-0.084,0.281-0.258,0.281-0.449V1.653C38.998,1.462,38.889,1.288,38.717,1.204z M4,21.388V10.674C4,9.751,4.731,9,5.631,9H9
+                              v14H5.631C4.716,23,4,22.292,4,21.388z M37.998,29.317C34.864,26.851,29.672,23,19.432,23h-5.797
+                              c-0.047-0.015-0.095-0.03-0.148-0.031c-0.001,0-0.001,0-0.002,0c-0.054,0-0.105,0.015-0.154,0.031H10V9h9.5
+                              c10.237,0,15.392-3.864,18.498-6.316V29.317z" />
+								<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="-1.8839" y1="17.1097" x2="52.1161" y2="-0.5987">
+									<stop offset="0" style="stop-color:#399BFF" />
+									<stop offset="1" style="stop-color:#EE71F9" />
+								</linearGradient>
+								<path fill="url(#SVGID_11_)" d="M1.5,21.857c0.276,0,0.5-0.224,0.5-0.5V10.643c0-0.276-0.224-0.5-0.5-0.5S1,10.367,1,10.643v10.714
+							  C1,21.633,1.224,21.857,1.5,21.857z" />
+							</svg>
+							<p>
+								<strong>Problem Statements</strong>
+								<span>Real World</span>
+							</p>
+						</div>
+					</div>
+
+					<!-- <div class="col-md-3 col-sm-3 text-right">
+                     <div class="block-info-1">
+                        <a href="#tickets" class="scroll but"> Register Now</a>
+                     </div>
+                  </div> -->
+				</div>
+				<!--End row-->
+			</div>
+			<!--End container-->
+			
+				<!--Events-->
+
+				
+
+			
+
+			<section id="rules" class="faq pt-120 pb-120 brd-bottom">
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 mb-100 text-center ">
+							<h1 class="title">RULES </h1>
+							<!-- <p class="title-lead mt-10 mb-20">Some frequently asked questions for you.</p> -->
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 ">
+							<div class="block-faq mb-50">
+								<h4 class="mb-10">GENERAL RULES:</h4>
+
+								<p class="title-lead mb-10">
+									The flag format is codexCTF{}, unless specified otherwise.
+								</p>
+								
+								<p class="title-lead mb-10">
+									 Attacking the web server is strictly prohibited and will get you disqualified.	
+								</p>
+								<p class="title-lead mb-10">
+								 	 Brute forcing flags on this platform is not allowed and will not lead to success.
+								</p>
+								
+								<p class="title-lead mb-10">
+									 Any questions regarding challenges or the platform should be asked via our Discord server.
+								</p>
+								<p class="title-lead mb-10">
+									 The competition will be over at 6:30PM IST, 22 AUGUST , 2021  but the challenges 'may' be kept online for 2-3 days to practice.
+								</p>
+								<p class="title-lead mb-10">
+									 This is an Individual competition.
+								</p class="title-lead mb-10">
+								<p class="title-lead mb-30">
+								This event is restricted to only ITER students.
+								</p>
+
+								<h4 class="mb-10">
+									PRIZE RULES:</h4>
+									
+									<p class="title-lead mb-10">
+										The prizes will be sent to the Registered email id only. It will be the responsibility of the students to give their valid email ID.
+									<p class="title-lead mb-10"> The prizes will be solely decided by the Organizing Committee.</p>
+									<p class="title-lead mb-30"> change is subject to the Organizing Committee's discretion at any time without prior notification, and the above announcements are not binding to the Committee.</p>
+									</p>
+									
+									<h4 class="mb-10">
+										DISCORD RULES:
+										
+									</h4>
+									<p class="title-lead mb-10"> 
+										If someone is disclosing flag of any particular challenge, mods and organizers have the right to ban them from the server & disqualify them from the prizes.</p>
+									<p class="title-lead mb-10"> If any user tries to contact you for flags, please let the Organizers know. We will ban them from the server & disqualify from the prizes, if shown proof.</p>
+									
+
+
+							</div>
+
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<!--Container-->
+				<!--End container-->
+			</section>
+			<!--End faq section-->
+
+			
+
+			<section id="Events" class="speakers pt-120 brd-bottom" >
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+							<h1 class="title">Events</h1>
+							<p class="title-lead mt-10">Quantum Speed is a 36-hr hackathon.<br>The event comprises three separate sub-events which are listed below: </p>
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<center>
+				<div class="container1" data-aos="fade-up" data-aos-duration="500">
+					<div id="st-box">
+						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_imyUMa.json"  background="transparent"  speed="5"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+
+						<h2 class="sub-title-0">Video Editing</h2>
+						<br>
+						<p class="title-lead mb-30">Go beyond cutting and merging clips! How about coming up with a new story or Physics theory and explaining it through all sorts of animations and graphs?</p>
+					</div>
+					  
+					<div id="nd-box">
+						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets5.lottiefiles.com/packages/lf20_vu2p4il8.json"  background="#000000"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+					<h2 class="sub-title-0">Microcontroller Projects </h2>
+					<br>
+					<p class="title-lead mb-30">Show us any cool project with Arduino, LegoEV3, Node MCU, ESP32 etc. and wow us with the technical complicity and effectiveness of your idea.</p>
+					</div>
+					  
+					<div id="rd-box">
+						<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_a8rtyndq.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+					<h2 class="sub-title-0">Web Development</h2>
+					<br>
+					<p class="title-lead mb-30"> Create  your  own  Portfolio Website using basic HTML, CSS and JS. Work on the appearance, layout and content of your website to win the admiration of the audience.</p>
+					</div>
+				</div>
+			</center>
+
+
+			</section>
+
+			
+			<!--Faq section-->
+			
+	
+			
+
+			<section id="faq" class="faq pt-120 pb-120 brd-bottom">
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 mb-100 text-center ">
+							<h1 class="title">ABOUT </h1>
+							<!-- <p class="title-lead mt-10 mb-20">Some frequently asked questions for you.</p> -->
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 ">
+							<div class="block-faq mb-50">
+								<h4 class="mb-10">ABOUT THE ORGANIZING COMMITTE</h4>
+
+								<p class="title-lead mb-30">Steptostem.com is an online community run by makers and ethusiasts of this era to help high school students develop an interest in technology and science
+									The whole event is the collabration of Steptostem.com and Little Flower School Telco</p>
+								<h4 class="mb-10">A WORD ON DIVERSITY</h4>
+								<p class="title-lead mt-30">Quantum Speed Hackathon is focused on Community Development and developing inituition in STEAM education. We believe everyone should be given equal chance and none should be excluded from technology. As a support to diversity,
+									there are special prizes and swags for girls participants</p>
+
+							</div>
+
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<!--Container-->
+				<!--End container-->
+			</section>
+			<!--End faq section-->
+
+			
+
+			
+
+
+			<!--End about section-->
+			<section id="mentors" class="speakers pt-120 brd-bottom">
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+							<h1 class="title">Mentors</h1>
+							<p class="title-lead mt-10">We are bringing you the perfect combination of content and experience to ignite your <br>heart equip your mind and spark your skill.</p>
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<div class="container block-content" data-aos="fade-up" data-aos-duration="500">
+				<div class="row">
+					<div class="col-sm-3 pd-0">
+						<div class="block-speaker">
+							<div class="block-img overlay soft">
+								<div class="background-img">
+									<img src="img/logo/sts_logo.png" alt="">
+								</div>
+								<div class="block-info-2">
+									<p>
+										<strong>Steptostem.com Experts!</strong>
+										<span>Community</span>
+									</p>
+									<ul class="block-social">
+										<li><a href="https://steptostem.com"><i class="icon-github"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 pd-0">
+						<div class="block-speaker">
+							<div class="block-img overlay soft">
+								<div class="background-img">
+									<img src="img/lfs_logo.png" alt="">
+								</div>
+
+								<div class="block-info-2">
+									<p>
+										<strong>Little Flower School</strong>
+										
+									</p>
+									<!-- <ul class="block-social">
+                              <li><a href="https://www.facebook.com/josephjoshyk"><i class="icon-facebook"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/joseph-joshy-3816918a/"><i class="icon-linkedin"></i></a></li>
+                           </ul> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--Speakers section-->
+			<section id="speakers" class="speakers pt-120 brd-bottom">
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+							<h1 class="title">JUDGES</h1>
+							<p class="title-lead mt-10">We are bringing you the perfect combination of content and experience to ignite your <br>heart equip your mind and spark your skill.</p>
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<div class="container block-content judges" data-aos="fade-up" data-aos-duration="500">
+					<div class="row">
+					<div class="col-sm-3 pd-0">
+						<div class="block-speaker">
+							<div class="block-img overlay soft">
+								<div class="background-img">
+									<img src="img/2.jpg" alt="">
+								</div>
+								<div class="block-info-2">
+									<p>
+										<strong>TBD </strong>
+										<span>TBD</span>
+									</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 pd-0">
+						<div class="block-speaker">
+							<div class="block-img overlay soft">
+								<div class="background-img">
+									<!--  --><img src="img/3.jpg" alt="">
+								</div>
+								<div class="block-info-2">
+									<p>
+										<strong>To be Declared</strong>
+										<span>TBD</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 pd-0">
+						<div class="block-speaker">
+							<div class="block-img overlay soft">
+								<div class="background-img">
+									<img src="img/4.jpg" alt="">
+								</div>
+								<div class="block-info-2">
+									<p>
+										<strong>To be Declared</strong>
+										<span>TBD</span>
+									</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				</div>
+			</section>
+
+			<!--End speakers section-->
+
+			<!--Workshop Sessions-->
+			<section id="workshop" class="speakers pt-120 brd-bottom">
+				<!--Container-->
+				<div class="container" data-aos="fade-up" data-aos-duration="500">
+					<!--Row-->
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+							<h1 class="title">Workshops</h1>
+							<p class="title-lead mt-10">Whats a Hackathon without a Workshop or Two?<br>Learn Something New...</p>
+						</div>
+					</div>
+					<!--End row-->
+				</div>
+				<!--End container-->
+				<div class="container block-content " data-aos="fade-up" data-aos-duration="500">
+					<div class="row">
+						<div class="col-sm-3 pd-0">
+							<div class="block-speaker">
+								<div class="block-img overlay soft">
+									<div class="background-img"> <img src="img/Gatsby_Monogram.png" alt=""> </div>
+									<div class="block-info-2">
+										<p> <strong>Make Videos Faster</strong>
+											<p>TBD </p>
+										</p>
+										<ul class="block-social">
+											<li><a href="https://github.com"><i class="icon-github"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 pd-0">
+							<div class="block-speaker">
+								<div class="block-img overlay soft">
+									<div class="background-img">
+										<img src="https://www.vaisulweb.com/wp-content/uploads/2019/02/azure_logo_794_new.png" alt="">
+									</div>
+									<div class="block-info-2">
+										<p>
+											<strong>Getting started with Web Design </strong>
+											<p>TBD</p>
+										</p>
+										<ul class="block-social">
+											<li><a href="https://github.com"><i class="icon-github"></i></a></li>
+											<li><a href="https://www.instagram.com"><i class="icon-instagram"></i></a></li>
+											<li><a href="https://www.twitter.com"><i class="icon-twitter"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+			</section>
+			<!--End Workshop session-->
+			<!-- <section id="schedule" class="schedule pt-120 pb-120">-->
+		 <!--Container>
+            <div class="container"> -->
+               <!--Row
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+                     <h1 class="title">EVENT SHEDULE</h1>
+                     <p class="title-lead mt-10">The Complete shedule will be mailed after registration. <br>Register Now!! </p>
+                  </div>
+               </div> -->
+	       <!--End row-->
+	</div>
+	<!--End container-->
+	<!--Container-->
+
+	<!--End container-->
+	<Container>
+		<div class="container schedule" data-aos="fade-up" data-aos-duration="500">
+			<!--Row-->
+			<div class="row">
+
+				<div class="col-sm-8">
+					<ul class="block-tab">
+						<!--Tab-->
+						<li class="active ">
+							<div class="block-date"><i class="et-line-calendar"></i><strong>SCHEDULE OUTLINE</strong> <span> August 2021 </span></div>
+							<div class="block-detail">
+								<span class="time">August 20</span>
+								<span class="topic">DAY 1</span>
+								<div class="block-text">
+									<p>10:00 AM - OPENING CEREMONY AND HACKATHON THEMES BRIEFING </p>
+									<p>11:30 AM - HACKING BEGINS....!!!! </p>
+									<p>2:00 PM - WORKSHOP ON VIDEO EDITING </p>
+									<p>4:30 PM - WORKSHOP ON WEBSITE DEVELOPMENT </p>
+									<p>6:30 PM - WORKSHOP ON ARDUINO DIY PROJECTS </p>
+									<p>8:30 PM - HELP DESK </p>
+								</div>
+							</div>
+							<div class="block-detail">
+								<span class="time">August 21</span> <span class="topic">DAY 2</span>
+								<div class="block-text">
+									<p>10:00 AM - PROJECT SUBMISSION DETAILS </p>
+									<p>12:30 PM - HELP DESK </p>
+									<p>3:00 PM - INNOVATORS HOUR - MEET STEPTOSTEM.COM INNOVATORS </p>
+									<p>8:00 PM - GUEST WORKSHOPS </p>
+									<p>10:00 PM - SUBMISSION CLOSES </p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--End row -->
+		</div>
+		<!--End container -->
+		</section>
+		<!--End schedule section-->
+		<!--Counter section-->
+		<!--End counter section-->
+		<!--Tickest section-->
+		<section id="prizes" class="tickets pt-120 pb-120">
+			<!--Container-->
+			<div class="container" data-aos="fade-up" data-aos-duration="500">
+				<!--Row-->
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 mb-130 text-center">
+						<h1 class="title">Event Prizes</h1>
+						<p class="title-lead mt-10"><br> Come join the world’s influencers and get answers. </p>
+					</div>
+				</div>
+				<!--End row-->
+			</div>
+			<!--End container-->
+			<!--Container-->
+			<div class="container" data-aos="fade-up" data-aos-duration="500">
+				<!--Row-->
+				<div class="row vertical-align tickets">
+					<div class="col-sm-4 ">
+						<h3 class="sub-title-0  mb-20"><span class="gradient-text">Important</span><br>
+						</h3>
+						<div class="review-slider flexslider">
+							<ul class="slides">
+								<li>
+									<blockquote>No teams, individual participants only.</blockquote>
+								</li>
+								<li>
+									<blockquote>It's a free event for all, no registartion charge. </blockquote>
+								</li>
+								<li>
+									<blockquote>What You Need.Laptops, ToothBrushes, Chargers, Cables, Clothes and a Geeky tshirt and reliable internet connection</blockquote>
+								</li>
+								<li>
+									<blockquote>Remote Event</blockquote>
+								</li>
+							</ul>
+							<a class="but mt-30"> Register through school</a>
+						</div>
+					</div>
+					<div class="col-sm-8 ">
+						<div class="col-sm-6">
+							<ul class="block-tickets active">
+								<li>
+									<ul class="block-ticket active">
+										<li class="block-price"><span class="price"><span class="cur">Certificates and Trophy</span></li>
+										<li>FIRST PRIZE</li>
+
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-sm-6">
+							<ul class="block-tickets">
+								<li>
+									<ul class="block-ticket ">
+										<li class="block-price"><span class="price"><span class="cur">Certificates and Trophy</span></li>
+										<li>SECOND PRIZE</li>
+
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--End row-->
+			</div>
+			<!--End container-->
+		</section>
+		<!--End register section-->
+		<!--Sponsor section-->
+		<section class="sponser pt-90 pb-90 brd-bottom" id="sponsors">
+			<!--Container-->
+			<div class="container" data-aos="fade-up" data-aos-duration="500">
+				<!--Row-->
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 mb-50 text-center ">
+						<h1 class="title"> Collaboration </h1>
+						<p class="title-lead mt-10 mb-20"> This event is in collaboration with  Developer Student Club & Microsoft Student Partners </p>
+						<img class="rounded ms-5 " src="./img/dsciter_logo.png" style="height: 10rem;"  alt="">
+						<img class=" rounded ms-5" src="./img/mlsa.png"  style="height:10rem;" alt="">
+					</div>
+					<!-- <a href="https://steptostem.com" class="but mt-30"> Visit Steptostem.com </a> -->
+				</div>
+				<!--End row-->
+			</div>
+			<!--End container-->
+			<!--Container-->
+		<!--End sponser section-->
+		<!--<section id="" class="register pt-200 pb-200 overlay">
+			<div class="background-img ">
+				<img src="img/KidangoorCollege.jpg" alt="">
+		</section>-->
+		<!--Contact section-->
+		<!--<section id="location" class="location pt-200 pb-200">
+			<div><iframe
+				 src=""
+				 width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+		</section>-->
+		<!--End contact section-->
+		<!--Accom section-->
+		</section>
+		<!--End register section-->
+		<!--Sponsor section-->
+		<section class="sponser pt-100 pb-100">
+			<!--Container-->
+			
+			<!-- <div class="container" data-aos="fade-up" data-aos-duration="500">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 mb-50 text-center ">
+						<h1 class="title"> STEPTOSTEM </h1>
+						<p class="title-lead mt-10 mb-20">The BackBone of the Whole Event</p>
+					</div>
+				</div>
+			</div>
+
+			 -->
+			<!--End container-->
+			<!--Container-->
+			
+			
+			<!-- <div id="sponsors" class="container clubs" data-a6os="fade-up" data-aos-duration="500"> -->
+				<!--Row-->
+				</div>
+				<!--End row-->
+			<!-- </div> -->
+
+			<!--End container-->
+		</section>
+
+		<!--End accom section-->
+
+		<!--Faq section-->
+		<footer class="pt-120  bg-dark" id="footer">
+		<!-- <footer class="  bg-dark"> -->
+			<div class="bottom-footer bg-black pt-50 pb-50">
+				<!--Container-->
+				<div class="container "data-aos="fade-up" data-aos-duration="500">
+					<div class="row">
+						<div class="col-md-6">
+							<h6 class="gradient-text"> &copy; Made with 🖤 Codex Team</h6>
+							<a class="gradient-text scroll" href=mailto:codexiter@gmail.com >Contact us</a>
+						</div>
+						<div class="col-md-6">
+							<ul class="block-legal">
+								<li><span><a class="gradient-text scroll" href="https://quantumspeed2021.steptostem.com/code_of_conduct.pdf">Code of Conduct</a></span></li>
+							</ul>
+						</div>
+						<div class="col-md-6 ">
+							<ul class="block-legal">
+								<li><span><a class="gradient-text scroll" href="#wrapper">Back To Top</a></span></li>
+								<li><span><a class="gradient-text scroll" > CODEX Team </a></span></li>
+                                <li><span><a class="gradient-text " href="mailto:codexiter@gmail.com " > MAIL ID : codexiter@gmail.com </a></span></li>
+							</ul>							
+							<ul class="block-legal">
+								<li><span><a class="gradient-text " href="https://github.com/codex-iter/" target="_blank">GitHub</a></span></li>
+								<li><span><a class="gradient-text scroll" href="https://www.instagram.com/codexiter/" target="_blank"> Instagram </a></span></li>
+                                <!-- <li><span><a class="gradient-text scroll" href="mailto:codexiter@gmail.com" > MAIL ID : codexiter@gmail.com </a></span></li> -->
+							</ul>							
+						</div>
+					</div>
+				</div>
+				<!--End container-->
+			</div>
+		</footer>
+		</div>
+		<!-- End wrapper-->
+		<!--Javascript-->
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+		<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+		<script src="js/jquery.countdown.min.js" type="text/javascript"></script>
+		<script src="js/jquery.countdown.js" type="text/javascript"></script>
+		<script src="js/smooth-scroll.js" type="text/javascript"></script>
+		<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+		<script src="js/placeholders.min.js" type="text/javascript"></script>
+		<script src="js/venobox.min.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
