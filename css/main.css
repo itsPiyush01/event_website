@@ -1638,15 +1638,26 @@ select.error {
 .parallax {
 
    
-    /* Set a specific height */
-    min-height: 500px;
-  
+    background-image:  url("../img/hero5.png");
+    /* min-height: 500px; */
+    min-height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    /* background-position: center; */
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+
+
+ 
   }
+
+
+@media only screen and (max-width: 500px){
+    .parallax{
+        /* background-position: right; */
+    }
+}
 
 .rules__li{
       font-size:1.2rem;
