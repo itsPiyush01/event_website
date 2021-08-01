@@ -1640,7 +1640,7 @@ select.error {
    
     background-image:  url("../img/hero5.png");
     /* min-height: 500px; */
-    min-height: 100vh;
+    min-height: 120vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     /* background-position: center; */
@@ -1671,7 +1671,9 @@ select.error {
 }
 
 .sponsor__img--1{
-    height: 20rem
+    height: 20rem;
+    /* padding-left: 10rem; */
+    margin-right: 5rem;
 }
 .sponsor__img--2{
     height: 15rem
@@ -1745,6 +1747,8 @@ select.error {
 
     .sponsor__img--1{
         height: 10rem;
+        margin-right: 0;
+        
     }
     .sponsor__img--2{
         height: 10rem;
