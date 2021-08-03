@@ -167,7 +167,7 @@ iframe {
     display: inline-block;
 }
 ::-moz-selection {
-    background: #000000;
+    /* background: #000000; */
     color: #ffffff;
 }
 /* End reset & basics (Inspired by E. Meyers) */
