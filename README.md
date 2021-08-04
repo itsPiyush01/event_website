@@ -1,2 +1,2 @@
-# Quantum2021-steptostem-site
-Quantum 2021 July-Aug Hackathon Website in collaboration with Little Flower School
+# CODEX CTF 2021
+Team CODEX brings you the most awaited event of the year on the topic Ethical hacking .
